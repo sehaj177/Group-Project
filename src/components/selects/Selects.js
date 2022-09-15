@@ -14,13 +14,13 @@ import SelectsImg from '../SelectsImg/SelectsImg'
 function Selects() {
     return (
         <div name='views' className='selects'>
-            <div className='container ImgHover'>
-                <SelectsImg  bgImg={Punjab} text='Punjab' />
-                <SelectsImg  bgImg={Chandigarh} text='Chandigarh' />
-                <SelectsImg  bgImg={Delhi} text='Delhi' />
-                <SelectsImg  bgImg={UttarPradesh} text='Uttar Pradesh' />
-                <SelectsImg  bgImg={Uttarakhand} text='Uttarakhand' />
-                <SelectsImg  bgImg={Rajasthan} text='Rajasthan' />
+            <div className='container '>
+                <SelectsImg className="ImgHover" bgImg={Punjab} text='Punjab' />
+                <SelectsImg className="ImgHover" bgImg={Chandigarh} text='Chandigarh' />
+                <SelectsImg className="ImgHover" bgImg={Delhi} text='Delhi' />
+                <SelectsImg className="ImgHover" bgImg={UttarPradesh} text='Uttar Pradesh' />
+                <SelectsImg className="ImgHover" bgImg={Uttarakhand} text='Uttarakhand' />
+                <SelectsImg className="ImgHover" bgImg={Rajasthan} text='Rajasthan' />
             </div>
 
         </div>

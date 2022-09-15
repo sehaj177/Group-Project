@@ -4,10 +4,9 @@ import './SearchStyles.css'
 import Gold from '../../assets/gold.png'
 
 function Search() {
-    const ratesAndHandler = (e)=>{
-        e.preventDefault();
-        console.log("rates button clicked");
-    }
+    // const ratesAndHandler=()=>{
+    //     console.log('clicked');
+    // }
     return (
         <div name='book' className='search'>
             <div className="container">
@@ -62,7 +61,7 @@ function Search() {
                                 <input type="date" />
                             </div>
                         </div>
-                        <button onClick={ratesAndHandler}>Rates & Availabilities </button>
+                        <button >Rates & Availabilities </button>
                     </form>
                 </div>
             </div>

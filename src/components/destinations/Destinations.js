@@ -12,7 +12,7 @@ function Destinations() {
         <div name='destinations' className='destinations'>
             <div className="container">
                 <h1>Tourist Attractions</h1>
-                <p>Best of the North India</p>
+                <p>Best of the North India  </p>
                 <div className="img-container">
                     <img className='span-3 image-grid-row-2' src={Punjab} alt="/"/>
                     <img src={Chandigarh} alt="/"/>

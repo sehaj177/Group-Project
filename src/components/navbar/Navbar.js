@@ -19,11 +19,11 @@ function Navbar() {
                 <h1>Voyager.</h1>
             </div>
             <ul className="nav-menu">
-                <Link to='hero' smooth={true} duration={500} ><li>Home</li></Link>
-                <Link to='destinations' smooth={true} duration={500} ><li>Destinations</li></Link>
+                <Link to='/' smooth={true} duration={500} ><li>Home</li></Link>
+                <Link to='/destinations' smooth={true} duration={500} ><li>Destinations</li></Link>
                 {/* <Link to='carousel' smooth={true} duration={500} ><li>Travel</li></Link> */}
-                <Link to='search' smooth={true} duration={500} ><li>Book</li></Link>
-                <Link to='views' smooth={true} duration={500} ><li>Views</li></Link>
+                <Link to='/search' smooth={true} duration={500} ><li>Book</li></Link>
+                <Link to='/views' smooth={true} duration={500} ><li>Views</li></Link>
             </ul>
             <div className="nav-icons">
                 <BiSearch className='icon' style={{ marginRight: '1rem' }} />

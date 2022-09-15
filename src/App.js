@@ -7,8 +7,7 @@ import Navbar from './components/navbar/Navbar'
 import Search from './components/search/Search';
 import Selects from './components/selects/Selects';
 import {
-  BrowserRouter as Router,
-  
+  BrowserRouter,
   Route,
   Link,
   Routes
@@ -18,24 +17,22 @@ function App() {
   return (
     <div>
 
-      <Router>
-        <Navbar />
+    <Navbar />
+      <BrowserRouter>
         <Hero />
         <Destinations />
         <Routes>
-
-            {/* <Route exact path="/" element={<Hero />} />
+            <Route exact path="/" element={<Hero />} />
             <Route exact path="/search" element={<Search />} />
             <Route exact path="/destinations" element={<Destinations />} />
-            <Route exact path="/selects" element={<Selects />} />  */}
-           {/* <Route exact path="/destinations" element={<ImgCarousel />} /> */}
+            <Route exact path="/selects" element={<Selects />} />
         </Routes>
         <Search />
         <Selects />
         <br />
         {/* <ImgCarousel /> */}
         <Footer />
-      </Router>
+      </BrowserRouter>
     </div>
   );
 }

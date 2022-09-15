@@ -21,7 +21,7 @@ function Hero() {
                     <div>
                         <button onClick={''}><AiOutlineSearch className='icon'/></button>
                     </div>
-                </form>
+        </form>
             </div>
         </div>
     )
