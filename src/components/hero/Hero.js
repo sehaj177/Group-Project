@@ -19,7 +19,7 @@ function Hero() {
                         <input type="text" placeholder='Search Destinations' />
                     </div>
                     <div>
-                        <button onClick={''}><AiOutlineSearch className='icon'/></button>
+                        <button ><AiOutlineSearch className='icon'/></button>
                     </div>
         </form>
             </div>

@@ -4,9 +4,7 @@ import './SearchStyles.css'
 import Gold from '../../assets/gold.png'
 
 function Search() {
-    // const ratesAndHandler=()=>{
-    //     console.log('clicked');
-    // }
+  
     return (
         <div name='book' className='search'>
             <div className="container">
@@ -42,13 +40,13 @@ function Search() {
                         <div className="input-wrap">
                             <label>Destination</label>
                             <select>
-                                <option value="1">Grande Antigua</option>
-                                <option value="1">Grenda</option>
-                                <option value="1">Emerald Bay</option>
-                                <option value="1">Bora Bora</option>
-                                <option value="1">Key West</option>
-                                <option value="1">Maldives</option>
-                                <option value="1">Barbados</option>
+                                <option value="1">New Delhi</option>
+                                <option value="1">Punjab</option>
+                                <option value="1">Chandigarh</option>
+                                <option value="1">Uttar Pradesh</option>
+                                <option value="1">Uttarakhand</option>
+                                <option value="1">Rajasthan</option>
+                                
                             </select>
                         </div>
                         <div className="date">

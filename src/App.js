@@ -21,12 +21,12 @@ function App() {
       <BrowserRouter>
         <Hero />
         <Destinations />
-        <Routes>
+        {/* <Routes>
             <Route exact path="/" element={<Hero />} />
             <Route exact path="/search" element={<Search />} />
             <Route exact path="/destinations" element={<Destinations />} />
             <Route exact path="/selects" element={<Selects />} />
-        </Routes>
+        </Routes> */}
         <Search />
         <Selects />
         <br />
