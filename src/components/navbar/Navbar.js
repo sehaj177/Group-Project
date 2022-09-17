@@ -24,6 +24,7 @@ function Navbar() {
                 {/* <Link to='carousel' smooth={true} duration={500} ><li>Travel</li></Link> */}
                 <Link to='search' smooth={true} duration={500} ><li>Book</li></Link>
                 <Link to='views' smooth={true} duration={500} ><li>Views</li></Link>
+                <Link to='footer' smooth={true} duration={500} ><li>About Us</li></Link>
             </ul>
             {/* <div className="nav-icons"> */}
                 {/* <BiSearch className='icon' style={{ marginRight: '1rem' }} /> */}
