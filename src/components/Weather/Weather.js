@@ -23,7 +23,7 @@ function App() {
 
   return (
     <div className="weatherApp">
-      <div className="search " style={{justifyItems:'center'} }>
+      <div className="search "  style={{justifyItems:'center'} }>
       
           <h2>Check the weather of your desired locations.  <WiDayShowers fontSize={'2.5rem'} /></h2>
         <input
