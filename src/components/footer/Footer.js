@@ -19,22 +19,23 @@ function Footer() {
                 </div>
                 <div className="bottom">
                     <div className="left">
+                    <a href='\about.html' target={"_blank"}>
                         <ul>
                             <li>About</li>
                             <li>Partnerships</li>
                             <li>Careers</li>
                             <li>Newsroom</li>
                             <li>Advertising</li>
-                        </ul>
+                        </ul></a>
                     </div>
                     <div className="right">
                         <ul>
-                            <li>Contact</li>
+                        <a href='\about.html' target={"_blank"}> <li>Contact Us</li></a>
                             <li>Terms</li>
                             <li>Policy</li>
                             <li>Privacy</li>
                             <li>Pricing</li>
-                            <li>Contact</li>
+                            
                         </ul>
                     </div>
                 </div>

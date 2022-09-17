@@ -25,10 +25,10 @@ function Navbar() {
                 <Link to='search' smooth={true} duration={500} ><li>Book</li></Link>
                 <Link to='views' smooth={true} duration={500} ><li>Views</li></Link>
             </ul>
-            <div className="nav-icons">
-                <BiSearch className='icon' style={{ marginRight: '1rem' }} />
-                <BsPerson className='icon' />
-            </div>
+            {/* <div className="nav-icons"> */}
+                {/* <BiSearch className='icon' style={{ marginRight: '1rem' }} /> */}
+                {/* <BsPerson className='icon' /> */}
+            {/* </div> */}
             <div className="hamburger" onClick={handleNav}>
                 {!nav ? (<HiOutlineMenuAlt4 className='icon' />) : (<AiOutlineClose style={{ color: '#000' }} className='icon' />)}
 

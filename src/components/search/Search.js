@@ -5,7 +5,7 @@ import { useState } from 'react'
 import Gold from '../../assets/gold.png'
 
 function Search() {
-    
+
 
     const handleClick = async (e) => {
         e.preventDefault();
@@ -16,19 +16,26 @@ function Search() {
                 'X-RapidAPI-Host': 'hotels4.p.rapidapi.com'
             }
         };
-        
+
         fetch('https://hotels4.p.rapidapi.com/locations/v2/search?query=new%20york&locale=en_US&currency=INR', options)
             .then(response => response.json())
             .then(response => console.log(response))
             .catch(err => console.error(err));
-    };
-    // const bookingApi = (e) => {
-    //     function hotelApi() {
 
-    //     }
-    //     console.log('hello');
-    //     e.preventDefault();
-    // }
+        const photos = {
+            method: 'GET',
+            headers: {
+                'X-RapidAPI-Key': '7602777b8bmshd5fae124a5f2a53p166bc4jsnd9fb5f0c5f63',
+                'X-RapidAPI-Host': 'hotels4.p.rapidapi.com'
+            }
+        };
+
+        fetch('https://hotels4.p.rapidapi.com/properties/get-hotel-photos?id=1178275040', options)
+            .then(response => response.json())
+            .then(response => console.log(response))
+            .catch(err => console.error(err));
+    };
+
 
     return (
         <div name='book' className='search'>
@@ -56,7 +63,7 @@ function Search() {
                     </div>
                 </div>
                 <div className="right">
-                    
+
                     <form>
                         <div className="input-wrap">
                             <label>Destination</label>
