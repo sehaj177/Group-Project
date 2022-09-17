@@ -30,7 +30,7 @@ function Footer() {
                     </div>
                     <div className="right">
                         <ul>
-                        <a href='\about.html' target={"_blank"}> <li>Contact Us</li></a>
+                        <a href='\contact.html' target={"_blank"}> <li>Contact Us</li></a>
                             <li>Terms</li>
                             <li>Policy</li>
                             <li>Privacy</li>

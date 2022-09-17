@@ -21,7 +21,7 @@ function Navbar() {
             <ul className="nav-menu">
                 <Link to='hero' smooth={true} duration={500} ><li>Home</li></Link>
                 <Link to='destinations' smooth={true} duration={500} ><li>Destinations</li></Link>
-                {/* <Link to='carousel' smooth={true} duration={500} ><li>Travel</li></Link> */}
+          
                 <Link to='search' smooth={true} duration={500} ><li>Book</li></Link>
                 <Link to='views' smooth={true} duration={500} ><li>Views</li></Link>
                 <Link to='footer' smooth={true} duration={500} ><li>About Us</li></Link>
@@ -31,23 +31,22 @@ function Navbar() {
                 {/* <BsPerson className='icon' /> */}
             {/* </div> */}
             <div className="hamburger" onClick={handleNav}>
-                {!nav ? (<HiOutlineMenuAlt4 className='icon' />) : (<AiOutlineClose style={{ color: '#000' }} className='icon' />)}
+                {!nav ? (<HiOutlineMenuAlt4 className='icon' />) : (<AiOutlineClose style={{ color: 'white' }} className='icon' />)}
 
             </div>
             
             <div className={nav ? 'mobile-menu active' : 'mobile-menu'}>
                 <ul className="mobile-nav">
-                    <Link to='/' aria-current="page"  ><li>Home</li></Link>
-                    <Link to='destinations'  ><li>Destinations</li></Link>
-                    <Link to='/carousel'  ><li>Travel</li></Link>
-                    <Link to='/search'  ><li>Book</li></Link>
-                    <Link to='/views'  ><li>Views</li></Link>
+                    <Link to='/' aria-current="page"smooth={true} duration={500}  ><li>Home</li></Link>
+                    <Link to='destinations'smooth={true} duration={500}  ><li>Destinations</li></Link>
+                    
+                    <Link to='search'smooth={true} duration={500}  ><li>Book</li></Link>
+                    <Link to='views'smooth={true} duration={500}  ><li>Views</li></Link>
+                    <Link to='footer' smooth={true} duration={500} ><li>About Us</li></Link>
+
                 </ul>
                 <div className="mobile-menu-bottom">
-                    <div className="menu-icons">
-                        <button>Search</button>
-                        <button>Account</button>
-                    </div>
+
                     <div className="social-icons">
                         <FaFacebook className='icon' />
                         <FaInstagram className='icon' />
