@@ -21,7 +21,7 @@ function Footer() {
                     <div className="left">
                     <a href='\about.html' target={"_blank"}>
                         <ul>
-                            <li>About</li>
+                            
                             <li>Partnerships</li>
                             <li>Careers</li>
                             <li>Newsroom</li>

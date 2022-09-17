@@ -1,9 +1,9 @@
 import React, { useState } from 'react'
-import { BiSearch } from 'react-icons/bi'
-import { BsPerson } from 'react-icons/bs'
+
 import { HiOutlineMenuAlt4 } from 'react-icons/hi'
 import { AiOutlineClose } from 'react-icons/ai'
 import { FaFacebook, FaInstagram, FaPinterest, FaTwitter, FaYoutube } from 'react-icons/fa'
+import { TiWeatherPartlySunny, TiWeatherSunny } from 'react-icons/ti'
 
 import { Link } from 'react-scroll'
 
@@ -24,12 +24,13 @@ function Navbar() {
           
                 <Link to='search' smooth={true} duration={500} ><li>Book</li></Link>
                 <Link to='views' smooth={true} duration={500} ><li>Views</li></Link>
-                <Link to='footer' smooth={true} duration={500} ><li>About Us</li></Link>
+                <a href='\about.html' target={"_blank"}  ><li>About Us</li></a>
+           
             </ul>
-            {/* <div className="nav-icons"> */}
-                {/* <BiSearch className='icon' style={{ marginRight: '1rem' }} /> */}
-                {/* <BsPerson className='icon' /> */}
-            {/* </div> */}
+            <div className="nav-icons" > 
+            <Link  to="weatherApp" smooth={true} duration={500}>   <TiWeatherPartlySunny className='icon' style={{ marginRight: '1rem',fontSize: 'relative' }} /> </Link>
+                 
+            </div>
             <div className="hamburger" onClick={handleNav}>
                 {!nav ? (<HiOutlineMenuAlt4 className='icon' />) : (<AiOutlineClose style={{ color: 'white' }} className='icon' />)}
 
@@ -37,12 +38,14 @@ function Navbar() {
             
             <div className={nav ? 'mobile-menu active' : 'mobile-menu'}>
                 <ul className="mobile-nav">
-                    <Link to='/' aria-current="page"smooth={true} duration={500}  ><li>Home</li></Link>
+                    <Link to='hero' aria-current="page"smooth={true} duration={500}  ><li>Home</li></Link>
                     <Link to='destinations'smooth={true} duration={500}  ><li>Destinations</li></Link>
                     
                     <Link to='search'smooth={true} duration={500}  ><li>Book</li></Link>
                     <Link to='views'smooth={true} duration={500}  ><li>Views</li></Link>
-                    <Link to='footer' smooth={true} duration={500} ><li>About Us</li></Link>
+                    <a href='\about.html' target={"_blank"} ><li>About Us</li></a>
+                    <Link to='weatherApp' smooth={true} duration={500} ><li>Check Weather</li></Link>
+                    
 
                 </ul>
                 <div className="mobile-menu-bottom">

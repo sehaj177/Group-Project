@@ -14,14 +14,7 @@ function Hero() {
             <div className="content">
                 <h1>First Class Travel</h1>
                 <h2>Top 1% Locations IN NORTH INDIA</h2>
-                {/* <form className="form">
-                    <div>
-                        <input type="text" placeholder='Search Destinations' />
-                    </div>
-                    <div>
-                        <button ><AiOutlineSearch className='icon' /></button>
-                    </div>
-                </form> */}
+               
             </div>
         </div>
     )
