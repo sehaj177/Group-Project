@@ -1,8 +1,6 @@
 import React from 'react'
 import './HeroStyles.css'
-import { AiOutlineSearch } from 'react-icons/ai'
-// import hotelVideo from '../../assets/hotelVideo.mp4'
-//  import Video from '../../assets/maldivesVideo.mp4'
+
 import gif from '../../assets/gif2.gif'
 
 function Hero() {
