@@ -1,0 +1,9 @@
+.Container{
+    padding: 50px 50px;
+    width: 100%;
+    height: 600px;
+    border: 1px solid red;
+    display: flex;
+    flex-wrap: wrap;
+}
+
