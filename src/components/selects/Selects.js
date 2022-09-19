@@ -15,7 +15,7 @@ function Selects() {
     return (
         <div name='views' className='selects'>
             <div className='container '>
-                <SelectsImg className="ImgHover" bgImg={Punjab} text='Punjab' />
+                <SelectsImg className="ImgHover" bgImg={Punjab} text='Punjab'  />
                 <SelectsImg className="ImgHover" bgImg={Chandigarh} text='Chandigarh' />
                 <SelectsImg className="ImgHover" bgImg={Delhi} text='Delhi' />
                 <SelectsImg className="ImgHover" bgImg={UttarPradesh} text='Uttar Pradesh' />

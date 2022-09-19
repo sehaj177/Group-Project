@@ -25,6 +25,7 @@ function Navbar() {
                 <Link to='search' smooth={true} duration={500} ><li>Book</li></Link>
                 <Link to='views' smooth={true} duration={500} ><li>Views</li></Link>
                 <a href='\about.html' target={"_blank"}  ><li>About Us</li></a>
+                <Link to='footer' smooth={true} duration={500} ><li>Contact Us</li></Link>
            
             </ul>
             <div className="nav-icons" > 
@@ -45,6 +46,7 @@ function Navbar() {
                     <Link to='views'smooth={true} duration={500}  ><li>Views</li></Link>
                     <a href='\about.html' target={"_blank"} ><li>About Us</li></a>
                     <Link to='weatherApp' smooth={true} duration={500} ><li>Check Weather</li></Link>
+                    <Link to='footer' smooth={true} duration={500} ><li>Contact Us</li></Link>
                     
 
                 </ul>

@@ -33,7 +33,7 @@ function Search(props) {
                 <img src={Gold} alt="/" style={{ marginRight: "1rem" }} />
               </div>
               <div>
-                <h3>WORLD'S LEADING</h3>
+                <h3>North India's LEADING</h3>
                 <p>ALL-INCLUSIVE COMPANY </p>
               </div>
             </div>
