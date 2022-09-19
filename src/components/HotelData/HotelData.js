@@ -10,7 +10,7 @@ function HotelData(props) {
       <h2 style={{textAlign:"center"}}>{props.name}</h2>
       <div className={styles.Container}>
         {[...Array(8)].map((_, ind) => {
-          return <Card key={ind} name={props.name} hotelName={ind}></Card>;
+          return <Card key={ind} name={props.name} hotelName={ind+1}></Card>;
         })}
       </div>
     </>
