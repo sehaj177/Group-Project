@@ -15,12 +15,20 @@ import {
   Routes
 } from "react-router-dom";
 
+const locName = {"1":"New Delhi",
+               "2":"Punjab",
+                "3":"Chandigarh",
+                "4":"Uttar Pradesh",
+                "5":"Uttarakhand",
+                "6":"Rajasthan"}
+
 function App() {
   const [isVisible, showdata] = useState(false);
+  const [selectedLocation, setSelectedLocation] = useState(1);
 
   const displayHoteldata = (flag)=>{
     if(flag)
-      return <HotelData></HotelData>
+      return <HotelData name={locName[selectedLocation]}></HotelData>
     else
       return <div></div>
   }
@@ -38,7 +46,7 @@ function App() {
             <Route exact path="/destinations" element={<Destinations />} />
             <Route exact path="/selects" element={<Selects />} />
         </Routes> */}
-        <Search displayHotelData={showdata} />
+        <Search visibility={isVisible} displayHotelData={showdata} setSelectedLocation={setSelectedLocation}/>
         {displayHoteldata(isVisible)}
         <Selects />
         <br />

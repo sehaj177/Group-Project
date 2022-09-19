@@ -1,12 +1,12 @@
 import React from "react";
 import styles from './Card.module.css'
 
-const Card = () => {
+const Card = (props) => {
     return (
         <div className={styles.Container}>
-            <img className={styles.hotelImage}></img>
-            <p>Hotel</p>
-            <p>Chandigarh</p>
+            <img className={styles.hotelImage} src=""></img>
+            <p>Name - Hotel {props.hotelName}</p>
+            <p>Address - {props.name}</p>
         </div>
     )
 }

@@ -7,7 +7,7 @@ import Gold from "../../assets/gold.png";
 function Search(props) {
   const handleClick = (e)=> {
     e.preventDefault();
-    props.displayHotelData(true);
+    props.displayHotelData(!props.visibility);
   };
 
 
@@ -50,13 +50,13 @@ function Search(props) {
           <form>
             <div className="input-wrap">
               <label>Destination</label>
-              <select>
+              <select onChange={(e) => props.setSelectedLocation(e.target.value)}>
                 <option value="1">New Delhi</option>
-                <option value="1">Punjab</option>
-                <option value="1">Chandigarh</option>
-                <option value="1">Uttar Pradesh</option>
-                <option value="1">Uttarakhand</option>
-                <option value="1">Rajasthan</option>
+                <option value="2">Punjab</option>
+                <option value="3">Chandigarh</option>
+                <option value="4">Uttar Pradesh</option>
+                <option value="5">Uttarakhand</option>
+                <option value="6">Rajasthan</option>
               </select>
             </div>
             <div className="date">
