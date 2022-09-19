@@ -10,7 +10,10 @@ function Search(props) {
     props.displayHotelData(!props.visibility);
   };
 
-
+  const packPopoUp=()=>{
+    console.log("popup");
+    alert("Will be available soon..");
+  }
 
   return (
     <div name="book" className="search">
@@ -41,7 +44,7 @@ function Search(props) {
               <div>
                 <h3>NO ONE INCLUDES MORE PACKAGES</h3>
                 <p>ALL-INCLUSIVE COMPANY </p>
-                <button>View Packages</button>
+                <button  onClick={packPopoUp}>View Packages</button>
               </div>
             </div>
           </div>
@@ -69,7 +72,7 @@ function Search(props) {
                 <input type="date" />
               </div>
             </div>
-            <button onClick={handleClick}>Rates & Availabilities </button>
+            <button onClick={handleClick}>Hotel Availabilities </button>
           </form>
         </div>
       </div>
