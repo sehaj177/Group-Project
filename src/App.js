@@ -10,6 +10,7 @@ import Weather from "./components/Weather/Weather";
 import HotelData from "./components/HotelData/HotelData";
 import { BrowserRouter, Route, Link, Routes } from "react-router-dom";
 
+//object with key value
 const locName = {
   1: "New Delhi",
   2: "Punjab",
@@ -20,7 +21,8 @@ const locName = {
 };
 
 function App() {
-  const [isVisible, showdata] = useState(false);
+  const [isVisible, showdata] = useState(false); //state variables used mainly to store componenet data and
+  //conditional rendering
   const [selectedLocation, setSelectedLocation] = useState(1);
 
   const displayHoteldata = (flag) => {

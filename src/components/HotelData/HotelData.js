@@ -4,7 +4,7 @@ import Card from "./Card/Card.js";
 import axios from "axios";
 
 function HotelData(props) {
-  console.log("Rendering Hotel data");
+  // console.log("Rendering Hotel data");
   return (
     <>
       <h1 style={{textAlign:"center"}}>{props.name}</h1>
