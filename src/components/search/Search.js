@@ -7,7 +7,7 @@ import Gold from "../../assets/gold.png";
 function Search(props) {
   const handleClick = (e)=> {
     e.preventDefault();
-    props.displayHotelData(!props.visibility);
+    props.displayHotelData(!props.visibility);  
   };
 
   const packPopoUp=()=>{

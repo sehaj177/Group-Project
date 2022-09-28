@@ -46,6 +46,7 @@ function App() {
           visibility={isVisible}
           displayHotelData={showdata}
           setSelectedLocation={setSelectedLocation}
+    
         />
         {displayHoteldata(isVisible)}
         <Selects />
