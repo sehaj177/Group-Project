@@ -53,6 +53,7 @@ function App() {
         <br />
         {/* <ImgCarousel /> */}
         <Weather />
+        
         <Footer />
       </BrowserRouter>
     </div>
